@@ -131,4 +131,4 @@ dist
 .pnp.*
 
 # for get changed pkg path
-cache-changed-pkg-path.sh
+cache-changed-*.sh

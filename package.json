@@ -22,6 +22,8 @@
     "getchanged": "sh ./scripts/get-changed-pkg-path.sh",
     "release-all": "bumpp packages/**/package.json",
     "release": "bumpp packages/**/package.json packages/**/*/package.json",
+    "publish-changed": "npm run getchanged && chmod +x ./cache-changed-pkg-publish-path.sh",
+    "prepublishOnly": "pnpm run build",
     "publish-pkg": "sh ./scripts/publish-to-npm.sh",
     "prepare": "husky"
   },
@@ -45,7 +47,7 @@
   "lint-staged": {
     "*": [
       "prettier --write --cache --ignore-unknown",
-      "npm run generate-packages-info",
+      "pnpm run generate-packages-info",
       "pnpm run getchanged",
       "git add ."
     ],
