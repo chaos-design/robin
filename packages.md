@@ -2,4 +2,4 @@
 
 | Package Name | Description | Version    |
 |--------------|------------|------------|
-| @chaos-design/css-selector | A tool for parsing and generating CSS selectors. | 0.0.6 |
+| @chaos-design/marquee | react marquee | 0.0.1-alpha.1 |

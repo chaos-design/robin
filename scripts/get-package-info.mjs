@@ -56,6 +56,7 @@ function main() {
   console.log(packages, markdownTable);
 
   fs.writeFileSync('packages.md', markdownTable, 'utf-8');
+  console.log('Markdown table generated successfully!');
 }
 
 main();

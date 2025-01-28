@@ -24,16 +24,13 @@
   "dependencies": {
     "@ant-design/icons": "^5.5.1",
     "@chaos-design/marquee": "workspace:*",
-    "antd": "^5.23.2",
-    "react-fast-marquee": "^1.6.5"
+    "antd": "^5.23.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
     "dumi": "^2.4.17",
     "dumi-theme-chaos": "^0.0.1-beta.6",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
