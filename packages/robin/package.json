@@ -1,7 +1,6 @@
 {
   "name": "@chaos-design/robin",
   "private": true,
-  "version": "0.0.1",
   "description": "robin component website",
   "license": "MIT",
   "scripts": {
