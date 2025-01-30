@@ -45,6 +45,6 @@ jobs:
         run: |
           pnpm -v
           pnpm i
-          pnpm run publish-changed
+          pnpm run publish-pkg
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_CHAOS_TOKEN}}

@@ -2,4 +2,4 @@
 
 | Package Name | Description | Version    |
 |--------------|------------|------------|
-| @chaos-design/marquee | react marquee | 0.0.1-alpha.1 |
+| @chaos-design/marquee | react marquee | 0.0.1 |

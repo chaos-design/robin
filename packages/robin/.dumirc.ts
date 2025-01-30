@@ -13,7 +13,7 @@ export default defineConfig({
     { id: 'en-US', name: 'English', suffix: '-en' },
   ],
   analytics: {
-    ga_v2: 'G-D3DFGG9BYK',
+    ga_v2: 'G-H9EQQW9VG3',
   },
   metas: [
     { name: 'theme-color', content: '#1677ff' },
@@ -32,15 +32,15 @@ export default defineConfig({
       'en-US': 'Robin Components',
     },
     loading: {
-      skeleton: ['/guide', '/config'],
+      skeleton: ['/guide', '/config', '/components'],
     },
-    lastUpdated: true,
+    rtl: false,
     announcementBar: {
       id: 'announcementBar',
       message: '🎉 欢迎使用 chaos-design',
       more: '查看更多',
       link: 'https://github.com/chaos-design/robin',
-      description: 'robin',
+      description: 'Robin Components',
       backgroundColor: '#86f4bd',
       textColor: '#000000e0',
       showIcon: false,
