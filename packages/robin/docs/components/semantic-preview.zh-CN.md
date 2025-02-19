@@ -5,8 +5,20 @@ group:
   order: 2
 title: SemanticPreview
 description: 语义化DOM
-tag: 0.0.1
+tag: '2025-02-18'
 ---
+
+## 版本
+
+![NPM Version](https://img.shields.io/npm/v/%40chaos-design%2Fsemantic-preview?style=flat&link=https%3A%2F%2Fnpmjs.com%2Fpackage%2F%40chaos-design%2Fsemantic-preview)
+
+## 安装
+
+<InstallDependencies
+  pnpm="$ pnpm add @chaos-design/semantic-preview"
+  npm="$ npm add @chaos-design/semantic-preview"
+  yarn="$ yarn add @chaos-design/semantic-preview"
+/>
 
 ## 用法
 

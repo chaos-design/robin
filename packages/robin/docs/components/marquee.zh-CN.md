@@ -5,8 +5,20 @@ group:
   order: 1
 title: Marquee
 description: 跑马灯组件
-tag: 0.0.1
+tag: '2025-01-27'
 ---
+
+## 版本
+
+![NPM Version](https://img.shields.io/npm/v/%40chaos-design%2Fmarquee?style=flat&link=https%3A%2F%2Fnpmjs.com%2Fpackage%2F%40chaos-design%2Fmarquee)
+
+## 安装
+
+<InstallDependencies
+  pnpm="$ pnpm add @chaos-design/marquee"
+  npm="$ npm add @chaos-design/marquee"
+  yarn="$ yarn add @chaos-design/marquee"
+/>
 
 ## 用法
 
