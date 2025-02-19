@@ -35,19 +35,21 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
+          token: ${{ secrets.NPM_CHAOS_TOKEN }}
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
           version: 9
 
-      - name: Install & Publish
+      - name: Install
         run: |
           pnpm -v
           pnpm i
-          # pnpm run publish-pkg
-          npm config set registry https://registry.npmjs.org/
-          npm config set //registry.npmjs.org/:_authToken $NPM_CHAOS_TOKEN
+          pnpm -r --filter="./packages/*" exec pnpm publish --access public --no-git-checks
+
+      - name: Publish
+        run: |
           pnpm -r --filter="./packages/*" exec pnpm publish --access public --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_CHAOS_TOKEN}}
